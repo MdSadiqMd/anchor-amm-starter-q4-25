@@ -1,6 +1,9 @@
 [workspace]
 members = [
-    "programs/*"
+    "programs/anchor-amm-q4-25"
+]
+exclude = [
+    "programs/.surfpool"
 ]
 resolver = "2"
 
